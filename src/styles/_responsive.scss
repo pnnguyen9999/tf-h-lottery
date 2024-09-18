@@ -1,0 +1,40 @@
+// @media screen and (max-width: 1199px) {
+//   .with-hera-token {
+//     width: auto;
+//   }
+// }
+@media screen and (max-width: 766px) {
+  .step-panel-cont {
+    height: inherit !important;
+  }
+  .banner-desktop {
+    // height: 550px !important;
+    width: 100%;
+    background: url(/img/banner/banner-mobile-new.png) !important;
+    background: {
+      repeat: no-repeat !important;
+      size: cover !important;
+    }
+    .fnt-s6 {
+      font-size: 23pt !important;
+    }
+  }
+
+  .with-hera-token {
+    &#{&} {
+      $xpad: 1.5rem;
+      padding-left: $xpad;
+      padding-right: $xpad;
+
+      min-width: auto;
+      margin-top: 0;
+      margin-bottom: 25px;
+      font-size: 18pt;
+    }
+  }
+
+  .pool-button {
+    background-image: url(/img/pool-white.png) !important;
+    --pool-button-width: 210px !important;
+  }
+}
